@@ -1,0 +1,62 @@
+.cartList-container{
+  width : 100% !important ;
+  margin :20px auto ;
+}
+.cartList-row{
+  margin : 8px 0px ;
+}
+.cartList-result{
+  margin : 20px 0px 0px 0px ;
+}
+.cartList-img{
+  width : 80px;
+  height : 80px ; 
+}
+.cartList-title{
+  font-weight: bold ;
+  margin :6px 0px;
+  font-size: 17px;
+}
+.cartList-text{
+  color : rgba(0, 0, 0, 0.45) ;
+  font-size: 15px;
+}
+.cartList-text-line-through{
+  text-decoration: line-through;
+}
+.cartList-delete{
+  cursor: pointer;
+  padding:20px  ;
+  color : rgb(252, 42, 42)  !important ;
+}
+.cartList-totalMoney{
+  color : red ;
+}
+.btn-view-cart{
+  background: rgb(88, 88, 88) !important;
+  color : white !important ;
+}
+.btn-payment{
+  background: rgb(252, 42, 42) !important;
+  color : white !important ;
+}
+.input-quantity{
+  width : 35px !important;
+  margin :0px 3px ;
+}
+.btn-minus{
+  width : 20px ;
+  cursor: pointer;
+  padding:5px ;
+  text-align: center !important;
+  border:none !important ;
+}
+.btn-plus{
+  display: flex;
+  justify-content: center;
+  width : 20px ;
+  cursor: pointer;
+  padding:5px ;
+  text-align: center !important;
+  border:none !important ;
+}

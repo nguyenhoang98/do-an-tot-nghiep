@@ -1,0 +1,35 @@
+
+
+.flashSale-container{
+  padding: 20px 50px !important ;
+}
+.flashSale-img{
+  width : 100% !important ;
+  height : 250px !important
+}
+.flashSale-card{
+  width: 100% !important; 
+  height : 430px !important ;
+  margin: 10px 0px  !important;
+  cursor: pointer !important;
+}
+.flashSale-description {
+  font-weight: 700 !important ;
+}
+.flashSale-grid{
+  display: flex !important;
+  justify-content: space-between !important ;
+  margin-bottom: 20px !important ;
+}
+.flashSale-rating{
+  display: flex !important;
+  justify-content: space-between !important;
+  margin-bottom: 20px !important;
+}
+.flashSale-action{
+  text-align: center !important;
+  position: absolute !important;
+  bottom: 5px !important;
+  left: 50% !important;
+  transform: translate(-50% , 0px) !important;
+}

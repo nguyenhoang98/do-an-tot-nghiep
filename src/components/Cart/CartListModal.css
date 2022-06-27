@@ -1,0 +1,66 @@
+.cartListModal-container{
+  width : 330px !important ;
+  margin : auto ;
+}
+.cartListModal-row{
+  width : 300px ;
+  margin : 5px 0px ;
+}
+.cartListModal-content{
+  width : 330px ;
+  height : 275px ;
+  overflow-y : auto ;
+}
+.cartListModal-result{
+  width : 100% ;
+  position: absolute;
+  bottom:60px ;
+  left : 50%;
+  transform: translateX(-50%);
+  padding: 0px 20px ;
+  margin : 20px 0px 0px 0px ;
+  background-color: inherit;
+  z-index: 99;
+}
+.cartListModal-action{
+  width : 100% ;
+  position: absolute;
+  bottom:20px ;
+  left : 50%;
+  transform: translateX(-50%);
+  padding: 0px 20px ;
+  margin : 20px 0px 0px 0px ;
+  background-color: inherit;
+  z-index: 99;
+}
+.cartListModal-img{
+  width : 65px;
+  height : 65px ; 
+}
+.cartListModal-title{
+  font-weight: bold ;
+  margin :2px 0px;
+}
+.cartListModal-text{
+  color : rgba(0, 0, 0, 0.45) ;
+  font-size: 12px;
+}
+.cartListModal-text-line-through{
+  text-decoration: line-through;
+}
+.cartListModal-delete{
+  cursor: pointer;
+  padding:20px  ;
+  color : rgb(252, 42, 42)  !important ;
+}
+.cartListModal-totalMoney{
+  color : red ;
+}
+.btn-view-cart{
+  background: rgb(88, 88, 88) !important;
+  color : white !important ;
+}
+.btn-payment{
+  background: rgb(252, 42, 42) !important;
+  color : white !important ;
+}

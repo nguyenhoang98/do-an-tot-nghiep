@@ -1,0 +1,142 @@
+body , html{
+  position: relative;
+}
+.logo{
+  width : 90% ;
+  height: 150px;
+  display: block;
+  margin : auto ;
+}
+.ant-layout-sider{
+  background-color: white !important;
+  text-align: center;
+}
+.appLayout-menuFixed{
+  position: fixed !important ;
+  top:0px !important; 
+  left:0px !important;
+  width : 300px !important ; 
+}
+.appLayout{
+  width : 100% ;
+  height: 100vh;
+  position: relative;
+}
+.appLayout-content{
+  margin : 0px 0px 0px 260px ;
+}
+.appLayout-sider{
+  height: 100vh;
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-between;
+  z-index : 98 ;
+}
+.appLayout-groupAction{
+  width : 100% ;
+  position: absolute;
+  bottom: 50px;
+}
+.appLayout-spin{
+  position: absolute;
+  top:200px !important ;
+  box-shadow: 2px 2px rgb(255, 233, 233) !important ;
+}
+
+.appLayout-searchInput{
+  width: '350px' !important;
+  margin-left: '-100px' !important;
+  padding: '6px 10px' !important;
+  border: 'none' !important;
+}
+
+.appLayout-badge{
+  color: white;
+  position: relative;
+}
+.appLayout-shoppingCart{
+  font-size: 25px;
+  cursor: pointer;
+  padding: 0px;
+  color : black
+ 
+}
+.appLayout-cartDialog{
+  width: 350px !important ;
+  height: 350px;
+  overflow: auto;
+}
+.appLayout-search{
+  font-size: 25px;
+  padding:3px ;
+  cursor: pointer;
+}
+.appLayout-contentPopover{
+  text-align: center;
+}
+.appLayout-editInfo{
+  cursor: pointer;
+  display: block;
+  margin-bottom: -8px;
+}
+.appLayout-menu-content{
+  height : 300px ;
+  overflow: auto;
+}
+::-webkit-scrollbar {
+  width: 10px;
+
+}
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(196, 194, 194, 0.85); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(88, 88, 88, 0.85); 
+}
+
+.header{
+  color : white !important ;
+  width : calc(100% - 200px) ;
+  height : 30px ;
+  position: fixed !important ;
+  top:0px !important ;
+  left:200px !important ;
+  z-index: 1000 ;
+}
+.d-flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-login ,
+.btn-logout{
+  width : 100% ;
+  display: block;
+  background-color: inherit;
+}
+.footer{
+  margin-top: 10px;
+  background: black !important;
+  color : white !important ;
+}
+.color-white{
+  color : white !important ;
+}
+.color-orange{
+  color : orange !important ;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: 'Courier New', Courier, monospace;
+}

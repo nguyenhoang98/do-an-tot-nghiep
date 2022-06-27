@@ -1,0 +1,30 @@
+
+.homeSlider-container{
+  margin : 0px auto 20px auto ;
+}
+.homeSlider-wrapper{
+  height : 500px ;
+}
+.homeSlider-wrapper-img{
+  width : 100% ;
+  height: 500px;
+}
+
+@media screen and (min-width : 1920px){
+  .homeSlider-wrapper{
+    height : 600px !important ;
+  }
+.homeSlider-wrapper-img{
+    width : 100% ;
+    height: 600px !important;
+  }
+}
+@media screen and (min-width : 2500px){
+  .homeSlider-wrapper{
+    height : 700px !important ;
+  }
+.homeSlider-wrapper-img{
+    width : 100% ;
+    height: 700px !important;
+  }
+}
